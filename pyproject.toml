@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "summary generator"
+version = "0.1.0"
+description = ""
+authors = ["Aliaksand Akhromenka"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.13.3"
+fastapi = "^0.115.14"
+uvicorn = "^0.35.0"
+aiosqlite = "^0.21.0"
+sqlalchemy = "^2.0.41"
+alembic = "^1.16.2"
+dotenv = "^0.9.9"
+pydantic-settings = "^2.10.1"
+fastapi-users = "^14.0.1"
+fastapi-users-db-sqlalchemy = "^7.0.0"
+openai = "^1.93.0"
+asyncpg = "^0.30.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
